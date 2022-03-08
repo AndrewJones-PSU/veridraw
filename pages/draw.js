@@ -15,6 +15,7 @@ export default function draw() {
 			</Head>
 
 			<main className={styles.main}>
+
 				<div className={styles.topbar}>
 					<div className={styles.button}>
 						<p>File</p>
@@ -26,6 +27,13 @@ export default function draw() {
 						<p>View</p>
 					</div>
 				</div>
+
+				<div>
+					<p>
+						this will be some kind of content, placeholder to see if I'm formatting right
+					</p>
+				</div>
+
 			</main>
 
 		</div >
