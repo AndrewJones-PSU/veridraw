@@ -33,7 +33,7 @@ export default function Home() {
 				<div className={styles.grid}>
 					<a href="./draw" className={styles.card}>
 						<h2>Start Drawing &rarr;</h2>
-						<p>Start drawing your first circuit!.</p>
+						<p>Start drawing your first circuit!</p>
 					</a>
 					<a href="https://github.com/AndrewJones-PSU/veridraw" className={styles.card}>
 						<h2>Github &rarr;</h2>
