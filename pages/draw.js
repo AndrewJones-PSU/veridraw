@@ -1,4 +1,4 @@
-import styles from 'draw.module.css'
+import styles from '../styles/draw.module.css'
 import Link from 'next/link'
 
 export function draw() {
