@@ -30,7 +30,7 @@ export default function draw() {
 
 				<div>
 					<p>
-						this will be some kind of content, placeholder to see if I'm formatting right
+						this will be some kind of content, placeholder to see if I&apos;m formatting right
 					</p>
 				</div>
 
