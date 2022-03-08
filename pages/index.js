@@ -31,7 +31,7 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<a href="./draw.js" className={styles.card}>
+					<a href="./draw" className={styles.card}>
 						<h2>Start Drawing &rarr;</h2>
 						<p>Start drawing your first circuit!.</p>
 					</a>
