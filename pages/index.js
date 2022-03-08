@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -32,10 +31,10 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
-					<Link href="./draw.js" className={styles.card}>
+					<a href="./draw.js" className={styles.card}>
 						<h2>Start Drawing &rarr;</h2>
 						<p>Start drawing your first circuit!.</p>
-					</Link>
+					</a>
 					<a href="https://github.com/AndrewJones-PSU/veridraw" className={styles.card}>
 						<h2>Github &rarr;</h2>
 						<p>Check out the progress that is being made on github.</p>
