@@ -19,6 +19,9 @@ export default function Home() {
 				<p className={styles.description}>
 					Design hardware by drawing diagrams.
 				</p>
+				<p className={styles.paragraph}>
+					v0.0.0-predev
+				</p>
 
 				<p className={styles.paragraph}>
 					VeriDraw is a web-based circuit designer for creating verilog designs by drawing diagrams. Users can draw their circuit by dragging in basic function blocks (adders, multipliers, registers, etc.) and connecting them together.
@@ -28,6 +31,10 @@ export default function Home() {
 				</p>
 
 				<div className={styles.grid}>
+					<a href="./draw.js" className={styles.card}>
+						<h2>Start Drawing &rarr;</h2>
+						<p>Start drawing your first circuit!.</p>
+					</a>
 					<a href="https://github.com/AndrewJones-PSU/veridraw" className={styles.card}>
 						<h2>Github &rarr;</h2>
 						<p>Check out the progress that is being made on github.</p>
