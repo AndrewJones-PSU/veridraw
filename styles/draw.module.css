@@ -30,6 +30,13 @@
 	border-color: #0070f3;
 }
 
+.button p{
+	margin: 0;
+	padding: 0;
+	width: 3rem;
+	text-align: center;
+}
+
 .topbar{
     display: inline-block;
     padding: 2rem 0;
