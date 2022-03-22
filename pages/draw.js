@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Script from 'next/script'
 
+import { DrawNavbar } from '../components/drawNavbar'
+
 import styles from '../styles/draw.module.css'
 
 export default function draw() {
@@ -14,29 +16,19 @@ export default function draw() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
+			<DrawNavbar />
+
+
 			<main className={styles.main}>
 
-				<div className={styles.topbar}>
-					<div className={styles.button}>
-						<p>File</p>
-					</div>
-					<div className={styles.button}>
-						<p>Edit</p>
-					</div>
-					<div className={styles.button}>
-						<p>View</p>
-					</div>
-				</div>
+
 
 				<div>
 					<p>
 						this will be some kind of content, placeholder to see if I&apos;m formatting right
 					</p>
 				</div>
-
 			</main>
-
 		</div >
 	)
-
 }

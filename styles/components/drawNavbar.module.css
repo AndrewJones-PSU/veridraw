@@ -1,0 +1,37 @@
+.button{
+    display: inline-block;
+    margin: 0rem 0.2rem;
+    border: 1px solid #eaeaea;
+    padding: 0.2rem;
+	border-radius: 10px;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+
+.button:hover,
+.button:focus,
+.button:active {
+	color: #0070f3;
+	border-color: #0070f3;
+}
+
+.button ul{
+	margin: 0;
+	padding: 0;
+	width: 3rem;
+	text-align: center;
+}
+
+.brand{
+    display: inline-block;
+    padding: 0rem 2rem 0rem 0.2rem;
+    font-size: 1rem;
+    color: #0070f3;
+}
+
+.navbar{
+    display:block;
+    border-bottom: 1px solid #eaeaea;
+	justify-content: top;
+}

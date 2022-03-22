@@ -36,11 +36,3 @@
 	width: 3rem;
 	text-align: center;
 }
-
-.topbar{
-    display: inline-block;
-    padding: 2rem 0;
-    border-bottom: 1px solid #eaeaea;
-	justify-content: top;
-	align-items: top;
-}
