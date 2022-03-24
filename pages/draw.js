@@ -16,13 +16,8 @@ export default function draw() {
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
 
-			<DrawNavbar />
-
-
 			<main className={styles.main}>
-
-
-
+				<DrawNavbar />
 				<div>
 					<p>
 						this will be some kind of content, placeholder to see if I&apos;m formatting right
